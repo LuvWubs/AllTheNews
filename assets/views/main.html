@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>All the News that Fits...</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+  </head>
+  <body>
+    <div class="header">
+      <div id="site">
+        <h4>All The News that Fits to Print</h4>
+      </div>
+      <a href="/" id="home" class="options">
+        Home
+      </a>
+      <a href="/articles/saved" id="saved" class="options">
+        Saved Articles
+      </a>
+    </div>
+    <div class="container">
+      <div id="canvas" class="col-lg-offset-3">
+        <form action="/articles/:query" id="search">
+          <h3 class="col-lg-offset-3">Search the news here!<br>Enter your search term: </h3>
+          <input id="queryID" type="text" class="col-lg-offset-3">
+          <input type="submit" id="submit">
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/js/scraper.js"></script>
+    <script type="text/javascript" src="/js/bot.js"></script>
+    <!-- <script src="/js/howler.js"></script>
+    <script src="/js/sound.js"></script> -->
+  </body>
+</html>
