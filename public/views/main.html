@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>All the News that Fits...</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+  </head>
+  <body>
+    <div class="header">
+      <div id="site">
+        <h4 id="motto">All The News that Fits to Print</h4>
+      </div>
+      <a href="/" id="home" class="options">
+        Home
+      </a>
+      <a href="/articles/saved" id="saved" class="options">
+        Saved Articles
+      </a>
+    </div>
+    <div class="container">
+      <div id="canvas" class="col-lg-offset-3">
+        <!-- <form action="/articles/:query" id="search"> -->
+          <h3 id="title">Get the news here!</h3>
+          <!-- <input id="queryID" type="text" class="col-lg-offset-3"> -->
+          <button id="search" class="btn btn-info" role="button">SCRAPE THE WEB</button>
+        <!-- </form> -->
+      </div>
+    </div>
+    <div id="articles"></div>
+    <div id="notes"></div>
+
+    <!-- <script src="http://code.jquery.com/jquery.min.js"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="/public/js/scraper.js"></script>
+    <!-- <script type="text/javascript" src="bot.js"></script> -->
+
+  </body>
+</html>

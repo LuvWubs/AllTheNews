@@ -1,0 +1,41 @@
+server.js
+  1. server links app to express (what is morgan??)
+main.html
+  2. app.get cb with search term when click submit
+scraper.js
+  3. js links event handler which specifies url to scrape
+  4. async call to url, returns promise
+main.html
+  5. res.JSON called back
+  6. app.post to articleDump
+  7. append checkbox to obj i in loop
+scraper.js
+  8. if res.JSON box is checked, app.post to saved/:queryID
+models.js
+  9. check model against JSON obj, with res...
+routes.js
+  9. check routes and ...
+articles.html
+  10. app.post JSON obj
+
+
+1. scrape based on query
+  get query
+  make api call to backend (sending out query)
+  use cheerio to get articles
+
+2. insert results into db
+  loop over articles & insert if not already there
+
+3. retrieve results from db (and display on page)
+  get articles
+
+4. save/unsave articles
+  add button
+  update db
+  update ui
+
+5. add/remove comments
+  add modal
+  add button
+  remove button

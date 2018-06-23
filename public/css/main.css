@@ -10,7 +10,7 @@ body {
 #canvas {
   width: 50%;
   height: 200px;
-  background-color: #D8BFD8;
+  background-color: #6787d0;
   margin-top: 25%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -21,11 +21,21 @@ body {
 #search {
   margin-top: 5%;
   width: 80%;
+  margin-left: 10%;
+}
+
+#title {
+  margin-left: 30%;
+  text-shadow: 1px 1px 4px white;
+}
+
+#motto {
+  margin-top: 2px;
 }
 
 .header {
   border-radius: 12px;
-  border: 2px solid #D8BFD8;
+  border: 2px solid #F5F5F5;
   background-color: grey;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -37,4 +47,8 @@ body {
 .options {
   font-size: 17px;
   margin-left: 28px;
+}
+
+#submit {
+  margin-left: 40%;
 }
